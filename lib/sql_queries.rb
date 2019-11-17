@@ -42,6 +42,6 @@ end
 
 def selects_bear_that_killed_Tim
   "
-  SELECT 
+  SELECT * FROM bears WHERE temperament = '';
   "
 end
