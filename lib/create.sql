@@ -4,5 +4,6 @@ CREATE TABLE bears(
   age
   gender 
   color
-  te
+  temperament
+  alive boolean
 );
