@@ -6,13 +6,13 @@ end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
   "
-  SELECT name FROM bears ORDER BY bears.name
+  SELECT name FROM bears ORDER BY bears.name;
   "
 end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
   "
-  SELECT names,ages FROM bears WHERE alive = 1 ORDER BY bears.age ASC
+  SELECT names,ages FROM bears WHERE alive = 1 ORDER BY bears.age ASC;
   "
 end
 
